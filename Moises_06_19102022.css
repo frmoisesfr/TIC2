@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+.menuH{
+    width: 70%;
+    margin: 20px auto 20px auto;
+}
+
+.menuH a,.menuV a{
+    background-color:blue;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuH a:hover,.menuV a:hover{
+    background-color: rgb(48, 48, 115);
+    color: black;
+}
+
+.menuV a{
+    float:none;
+    display: block;
+}
+
+.menuV{
+    width: 50%;
+    float: right;
+}
